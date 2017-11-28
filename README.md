@@ -66,7 +66,7 @@ Ensure [requirements](#user-content-requires) are met, then execute the followin
 create-react-app $APP_NAME
 cd $APP_NAME
 git init
-heroku create $APP_NAME --buildpack https://github.com/mars/create-react-app-buildpack.git
+heroku create $APP_NAME --buildpack https://github.com/derniercri/create-react-app-buildpack.git
 git add .
 git commit -m "Start with create-react-app"
 git push heroku master
