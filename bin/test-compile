@@ -2,6 +2,6 @@
 # bin/test-compile BUILD_DIR CACHE_DIR ENV_DIR
 
 # Test compiler copied from Node buildpack:
-# https://github.com/heroku/heroku-buildpack-nodejs/blob/master/bin/test-compile
+# https://github.com/Scalingo/nodejs-buildpack/blob/master/bin/test-compile
 
 NODE_ENV=test "$(dirname ${0:-})/compile" "$1" "$2" "$3"
